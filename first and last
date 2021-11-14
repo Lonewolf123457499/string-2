@@ -1,0 +1,8 @@
+str=input("enter the string")
+l=len(str)# find the length of the string
+if l<=2:# check whether the length of the string is not less than 2
+    print(str)
+else:
+    p=str[:2]#to get first 2 char
+    d=str[l-2:l]# to get 2 last char
+    print(p+d)
